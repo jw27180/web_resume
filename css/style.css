@@ -153,9 +153,7 @@ h2#header{
 
 ul {
     list-style: none;
-    font-size: 1.2vw;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    font-size: 1vw;
 }
 
 .textdivText {
@@ -219,19 +217,29 @@ hr {
     margin-bottom: 80px;
 }
 
-dd, dt {
-    display:block;
-    float: left;
-    margin-top: 20px;
+dl {
+    height:100%;
     font-size: 1vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-dt {clear:both;}
+dt {
+    width: 15%;
+}
+  
+dd {
+    margin-left: auto;
+    width: 85%;
+}
 
-dl {
-    overflow:hidden;
-    margin: 0;
-    margin-left: 20px;
+dt#skills {
+    width: 33%
+}
+
+dd#skills {
+    margin-left: auto;
+    width: 67%;
 }
 
 .bottom {
