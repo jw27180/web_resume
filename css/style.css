@@ -154,6 +154,12 @@ h2#header{
 ul {
     list-style: none;
     font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 .textdivText {
@@ -218,19 +224,29 @@ hr {
 }
 
 dl {
-    height:100%;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
     font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 dt {
     width: 15%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
 }
   
 dd {
-    margin-left: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
     width: 85%;
+    margin-bottom: 10px;
 }
 
 dt#skills {
