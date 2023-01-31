@@ -8,7 +8,7 @@ body {
 
 .top {
     height: 100%;
-    padding-top: 350px;
+    padding-top: 16%;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -28,13 +28,13 @@ h1 {
     padding-top: 20px;
     font-family: 'Press Start 2P', cursive;
     font-weight: lighter;
-    font-size: 4em;
+    font-size: 65px;
     color: #ffffff;
 }
 
 .headerdesc {
     font-family: 'Press Start 2P', cursive;
-    font-size: 1rem;
+    font-size: 17px;
     color: #139d08;
 }
 
@@ -80,12 +80,12 @@ p#desc {
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: bolder;
-    font-size: 1vw;
+    font-size: 18px;
 }
 
 h2 {
     font-family: 'Russo One', sans-serif;
-    font-size: 2vw;
+    font-size: 55px;
     color:#30911d;
     margin-bottom: 0;
 }
@@ -104,7 +104,7 @@ h2 {
 }
 
 h2#header{
-    font-size:2.25vw;
+    font-size:50px;
 }
 
 .graphic {
@@ -153,7 +153,7 @@ h2#header{
 
 ul {
     list-style: none;
-    font-size: 1vw;
+    font-size: 18px;
 }
 
 .textdivText {
@@ -162,7 +162,7 @@ ul {
     float: left;
     width: fit-content;
     height: 40px;
-    font-size: 2.2vw;
+    font-size: 43px;
     color: #139d08;
     font-family: 'Passion One', cursive;
 }
@@ -191,7 +191,7 @@ a:hover {
 }
 
 .contactbutton {
-    font-size: 0.8vw;
+    font-size: 17px;
     background-color: #139d08;
     padding: 10px;
     padding-left: 20px;
@@ -219,7 +219,7 @@ hr {
 
 dl {
     height:100%;
-    font-size: 1vw;
+    font-size: 18px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -258,18 +258,18 @@ p#bottom {
 
 h1#contact {
     color: #139d08;
-    font-size: 2vw;
+    font-size: 40px;
 }
 
 body#contact {
     margin-top: 50px;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 1.25vw;
+    font-size: 24px;
     font-weight: lighter;
 }
 
 .card {
-    font-size: 0.8vw;
+    font-size: 18px;
     box-shadow: -5px 5px 10px 3px rgba(255,255,255,0.1);
     background-color:#101010;
     padding: 35px;
@@ -296,7 +296,7 @@ hr#contact {
 input#button {
     margin-top: 30px;
     width:fit-content;
-    font-size: 0.8vw;
+    font-size: 17px;
     background-color: #139d08;
     padding: 10px;
     padding-left: 20px;
